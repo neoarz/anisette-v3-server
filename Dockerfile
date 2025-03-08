@@ -30,5 +30,5 @@ RUN useradd -ms /bin/bash Alcoholic \
 
 # Run the artefact
 USER Alcoholic
-EXPOSE 6969
+EXPOSE 8080
 ENTRYPOINT [ "/opt/anisette-v3-server" ]
